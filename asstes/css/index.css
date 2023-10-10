@@ -1,0 +1,324 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+
+    width: 100%;
+}
+
+.contenior {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.menu {
+    display: flex;
+    gap: 50px;
+
+}
+
+.search {
+    display: flex;
+
+    gap: 40px;
+}
+
+.men-header {
+    display: flex;
+    gap: 40px;
+}
+
+li a {
+    color: gray;
+}
+
+.home {
+    position: relative;
+}
+
+.home:hover .home-menu {
+    display: block;
+    animation-name: animasyon;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    background-color: #fff;
+    height: 300px;
+       width: 200px;
+    padding: 20px;
+}
+
+.home-menu {
+    position: absolute;
+    top: 15px;
+    left: -25px;
+    display: none;
+
+}
+
+.menu-jun {
+    width: 70%;
+    height: 600px;
+    display: flex;
+    gap: 50px;
+}
+
+.junior-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* width: 200px;
+    padding: 20px;
+    background-color: #fff; */
+}
+
+.junior-menu li a {
+    color: gray;
+
+}
+
+.Pagres {
+    display: flex;
+    position: relative;
+}
+
+.Pages-menu {
+    position: absolute;
+    top: 70px;
+    display: none;
+   padding: 10px;
+
+}
+
+
+.junior-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* width: 100px;
+    background-color: #fff;
+    padding-left: 15px; */
+}
+
+.Pages:hover .Pages-menu {
+    display: block;
+    animation-name: animasyon;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    width: 100px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.junior-menu {
+    color: gray;
+
+}
+
+.Portfolid {
+    position: relative;
+}
+
+.Portfolid-menu {
+    position: absolute;
+    top: 18px;
+    display: none;
+   background-color: #fff;
+
+}
+
+.junior-Portfolid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 120px;
+    
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.Portfolid:hover .Portfolid-menu {
+    display: block;
+    animation-name: animasyon;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.Blog {
+    position: relative;
+}
+
+.Blog-menu {
+    position: absolute;
+    top: 15px;
+    display: none;
+    padding-top: 10px;
+    width: 120px;
+    background-color: #fff;
+}
+
+.mini-Blog {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.Blog:hover .Blog-menu {
+    display: block;
+    animation-name: animasyon;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.ELEMENTS {
+    position: relative;
+}
+
+.Elements-menu {
+    position: absolute;
+    top: 15px;
+    display: none;
+}
+
+.Junior-Elements {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.ELEMENTS:hover .Elements-menu {
+    display: block;
+    animation-name: animasyon;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    width: 120px;
+    background-color: #fff;
+}
+
+.Cart0 {
+    position: relative;
+}
+
+.Cart-menu {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+
+.Cart1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 120px;
+    background-color: #fff;
+}
+
+.Cart0:hover .Cart-menu {
+    display: block;
+    animation-name: animasyon;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.shop {
+    position: relative;
+}
+
+.shop-min-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img {
+    margin-right: 20px;
+}
+
+.shop:hover .shop-menuHead {
+    display: block;
+    gap: 85px;
+    left: -147px;
+    width: 700px;
+    height: 290px;
+    position: absolute;
+    top: 16px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0rem;
+    display: flex;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+.shop-menuHead {
+    display: none;
+
+}
+
+.junior-shop {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 170px;
+    background-color: #fff;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
+}
+
+.red {
+    width: 20%;
+    margin-left: 170px;
+    font-size: 25px;
+
+}
+
+.min-menu {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+
+
+}
+
+@keyframes anime {
+    from {
+        max-height: 0;
+    }
+
+    to {
+        max-height: 500px;
+    }
+}
+
+@keyframes animasyon {
+    from {
+        max-height: 0;
+    }
+
+    to {
+        max-height: 300px;
+    }
+}
